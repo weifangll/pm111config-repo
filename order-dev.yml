@@ -1,4 +1,4 @@
-env: order-dev2.yml
+env: order-dev3.yml
 spring:
   datasource:
     username: root
