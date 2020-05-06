@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql:///pm111?characterEncoding=UTF-8
+  redis:
+    host: localhost
+    port: 6379
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+server:
+  port: 9090
