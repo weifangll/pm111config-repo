@@ -3,17 +3,17 @@ spring:
   datasource:
     username: root
     password: 1234
-    url: jdbc:mysql:///pm111?characterEncoding=UTF-8
+    url: jdbc:mysql://192.168.2.106:3306/pm111?characterEncoding=UTF-8
     driver-class-name: com.mysql.jdbc.Driver
   rabbitmq:
-    host: localhost
+    host: 192.168.2.106
     username: guest
     password: guest
     port: 5672
   application:
     name: order
 server:
-  port: 8082
+  port: 8087
 PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
